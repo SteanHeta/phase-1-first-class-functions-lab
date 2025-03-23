@@ -16,7 +16,7 @@ describe('index.js', function () {
   describe('returnLastTwoDrivers()', function () {
     it('should return an array of the last two drivers', function () {
       expect(returnLastTwoDrivers(['Antonia', 'Nuru', 'Amari', 'Mo'])).to.eql(['Amari', 'Mo']);
-    });
+5    });
   });
 
   describe('selectingDrivers', function () {
